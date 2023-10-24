@@ -28,7 +28,6 @@ Mortgage: (monetary value formatted in system´s currency).
      * monthly payments and payment schedules based on user inputs.
      */
     public class MortgageCalculator {
-        private final Scanner scanner = new Scanner(System.in);
         private final Locale locale = new Locale.Builder().setLanguage("en").setRegion("US").build();
         private final NumberFormat currencyFormat = NumberFormat.getCurrencyInstance(locale);
         private final byte MONTHS_IN_YEAR = 12;
@@ -131,6 +130,7 @@ Mortgage: (monetary value formatted in system´s currency).
             setPrincipal();
             setMonthlyInterestRate();
             setPeriodYears();
+            calculateMonthlyPayment();
             printMonthlyPayment();
             calculateAndPrintPaymentSchedule();
         }
