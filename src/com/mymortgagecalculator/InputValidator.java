@@ -1,4 +1,4 @@
-package com.mycompany;
+package com.mymortgagecalculator;
 
 import java.util.InputMismatchException;
 import java.util.Locale;

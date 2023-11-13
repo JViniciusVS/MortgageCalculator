@@ -1,4 +1,4 @@
-package com.mycompany;
+package com.mymortgagecalculator;
 
 public class Main {
     public static void main(String[] args) {
