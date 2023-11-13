@@ -2,7 +2,6 @@ package com.mymortgagecalculator;
 
 import java.text.NumberFormat;
 import java.util.Locale;
-import java.util.Scanner;
 
 /*
 M = P[r(1 + r)^n] / [(1 + r)^n - 1]
